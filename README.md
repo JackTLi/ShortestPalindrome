@@ -1,5 +1,5 @@
 # ShortestPalindrome
-Given a string, this will find the shortest palindrome for that string.
+Given a string, this will find the shortest palindrome for that string that can be achieved by appending characters only to the front.
 
 Assume we are given a string  **s**.
 This solution works by first saving a reverse of the **s** and saving it as **rs**.

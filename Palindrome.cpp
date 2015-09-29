@@ -34,16 +34,3 @@ string shortestPalindrome(string s)
 	return tstack + s;
 
 }
-
-int main()
-{
-	string temp;
-
-	while (true)
-	{
-		cin >> temp;
-		cout << shortestPalindrome(temp) << endl;
-	}
-    return 0;
-}
-

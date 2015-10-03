@@ -8,6 +8,6 @@ Then, we construct an empty prefix **tstack** for **s**, as well as a suffix for
 
 In order to fill **tstack** and **tstackr**, we construct a **pile** as a copy of rs.
 
-While **tstack + s** is not the same as **rs + tstackr**, we will continue to push characters from the **pile** onto the end of **tstack**, and the beginning of **tstackr**.
+While **tstack + s** is not the same as **rs + tstackr**, we will continue to push the first character of **pile** onto the end of **tstack**, and the beginning of **tstackr**.
 
 The end result is that **tstack + s** will be the shortest palindrome of **s**.
